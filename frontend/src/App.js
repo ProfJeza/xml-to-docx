@@ -41,7 +41,7 @@ function App() {
         formData.append("tipo", tipo);
 
         try {
-            const response = await fetch("https://xml-to-docx.onrender.com/generar-docx", {
+            const response = await fetch("https://xml-to-docx.onrender.com/upload", {
                 method: "POST",
                 body: formData,
                 headers: {
