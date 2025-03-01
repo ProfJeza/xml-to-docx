@@ -1,0 +1,4 @@
+# Ignorar archivos generados y subidos
+backend/generated/
+backend/uploads/
+
