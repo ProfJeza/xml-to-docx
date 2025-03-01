@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$course$/top/Por defecto en 999179183</text>
+    </category>
+    <info format="moodle_auto_format">
+      <text>Categoría por defecto para preguntas compartidas en el contexto 999179183.</text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 22720  -->
+  <question type="truefalse">
+    <name>
+      <text>Asamblea Legislativa</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A la Asamblea Legislativa le corresponde destituir al Presidente de la Corte Suprema de Justicia de la Nación. </p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22719  -->
+  <question type="truefalse">
+    <name>
+      <text>Asamblea Legislativa</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>La Asamblea Legislativa se reune para: a)Para admitir o desechar los motivos de dimisión del presidente o vicepresidente de la República; y declarar en su caso, el llamado a elecciones; b)- Para designar el funcionario público que ha de desempeñar la presidencia de la Nación, en los casos de destitución, muerte, dimisión o inhabilidad del presidente y vicepresidente, hasta que haya cesado la causa de la inhabilidad o un nuevo presidente sea electo; c) Para tomar juramento al presidente y vicepresidente de la Nación, prestado ante el presidente del Senado y ante el Congreso reunido en Asamblea; d) Para escuchar al presidente de la Nación en ocasión de la apertura del año legislativo, reunidas al efecto ambas cámaras. </p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22722  -->
+  <question type="truefalse">
+    <name>
+      <text>Código Civil y Comercial</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>El Registro Público de Comercio se encuentra regulado en el nuevo Código Civil y Comercial de la Nación.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22721  -->
+  <question type="truefalse">
+    <name>
+      <text>Código Civil y Comercial</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>En el nuevo Código Civil y Comercial de la Nación se regulo la figura del comerciante y de los actos objetivos de comercio.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22727  -->
+  <question type="truefalse">
+    <name>
+      <text>Código Civil y Comercial de la Nación</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>El nuevo Código Civily Comercial de la Nación continua con la distinción tradicional entre obligaciones civiles y comerciales.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>0.5000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22724  -->
+  <question type="truefalse">
+    <name>
+      <text>Concurso Preventivo</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>El concurso preventivo tiene por finalidad vender todo el patrimonio del deudor para ser repartido a sus acreedores.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22730  -->
+  <question type="truefalse">
+    <name>
+      <text>Derecho Laboral</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Principio de Realidad: en el derecho laboral prima la realidad de la relación laboral por sobre como este registrado el trabajador.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22734  -->
+  <question type="truefalse">
+    <name>
+      <text>Derecho Laboral</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>El empleador puede despedir con causa por abandono de trabajo previa intimación fehaciente al trabajador.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>0.5000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22735  -->
+  <question type="truefalse">
+    <name>
+      <text>Derecho Laboral</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>El empleador puede despedir con causa por abandono de trabajo previa intimación fehaciente al trabajador.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>0.5000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22726  -->
+  <question type="truefalse">
+    <name>
+      <text>El Poder Judicial</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>En el sistema de división de Poderes el Poder Judicial se encuentra por encima del Poder Ejecutivo.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>0.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22733  -->
+  <question type="truefalse">
+    <name>
+      <text>El Poder Legislativo</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>La Cámara de Diputados es la encargada de acusar a los jueces de primera instancia federal por mal desempeño de sus funciones, y la Cámara de Senadores juzga. </p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>0.5000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22714  -->
+  <question type="truefalse">
+    <name>
+      <text>Fuentes</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Las leyes convenio tienen jerarquía superior a los tratados internaciones. </p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22715  -->
+  <question type="truefalse">
+    <name>
+      <text>Fuentes</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Los decretos reglamentarios del Poder Ejecutivo tienen jerarquía superior a las leyes.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22729  -->
+  <question type="truefalse">
+    <name>
+      <text>Fuentes del Derecho</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>La doctrina es la fuente del derecho más importante y superior de todas, siendo sus caracteres principales la uniformidad y perdurabilidad.  </p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>0.5000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22717  -->
+  <question type="truefalse">
+    <name>
+      <text>Juicio Politico</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Al Senado le corresponde juzgar en juicio público a los acusados por la Cámara de Diputados.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22707  -->
+  <question type="truefalse">
+    <name>
+      <text>Los Principios Jurídicos</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Los principios jurídicos del Derecho sólo son válidos en una determinada rama de la ciencia jurídica.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22709  -->
+  <question type="truefalse">
+    <name>
+      <text>Ordenamiento Jurídico</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Hans Kelsen incorporo al mundo del derecho la axiología jurídica (el estudio de los valores a la ciencia juídica). </p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22708  -->
+  <question type="truefalse">
+    <name>
+      <text>Ordenamiento Jurídico</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Para Hans Kelsen el ordenamiento jurídico sólo se refiere al conjunto de normas positivas. </p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22728  -->
+  <question type="truefalse">
+    <name>
+      <text>Poder Ejecutivo</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>El principio general es que el Poder Ejecutivo tiene prohibido dictar normas con carácter general (legislar), excepto cuando existan causas de necesidad y urgencia.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>0.5000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22718  -->
+  <question type="truefalse">
+    <name>
+      <text>Poder Legislativo</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>La única función del Poder Legislativo es dictar leyes.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22712  -->
+  <question type="truefalse">
+    <name>
+      <text>Positivismo y Iusnaturalismo</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>El positivismo reconoce un derecho natural dentro del ordenamiento jurídico.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22711  -->
+  <question type="truefalse">
+    <name>
+      <text>Positivismo y Iusnaturalismo</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Para el positivismo, el Derecho sólo comprende al conjunto de normas jurídicas vigentes en un determinado territorio. En cambio, para las corrientes del iusnaturalistas, además del derecho positivo, existe un Derecho Natural superior que el positivo debe reconocer y adecuarse a sus preceptos.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22706  -->
+  <question type="truefalse">
+    <name>
+      <text>Principios Jurídicos</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Los principios jurídicos son “una condensación de los grandes valores jurídicos materiales que constituyen el <em>substratum</em> del Ordenamiento y de la experiencia reiterada de la vida jurídica"</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22705  -->
+  <question type="truefalse">
+    <name>
+      <text>Principios Jurídicos</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Los principios jurídicos son “una condensación de los grandes valores jurídicos materiales que constituyen el <em>substratum</em> del Ordenamiento y de la experiencia reiterada de la vida jurídica"</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22725  -->
+  <question type="truefalse">
+    <name>
+      <text>Quiebra</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>La quiebra tiene por función la reestructuración de las deudas de la empresa para su continuidad en la actividad comercial. </p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22716  -->
+  <question type="truefalse">
+    <name>
+      <text>Requisitos para ser diputado nacional</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>El artículo 48 de la Constitución establece los siguientes requisitos para ser elegido diputado: 1) Tener treinta y cinco años de edad; 2) seis años de ciudadanía en ejercicio; 3) ser natural de la provincia que lo elija, o con dos años de residencia en ella. </p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22731  -->
+  <question type="truefalse">
+    <name>
+      <text>Seguros</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>En el contrato de seguro el monto de la prima se determina en función del riesgo asegurado y la probabilidad de que el siniestro ocurra. </p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>0.5000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22710  -->
+  <question type="truefalse">
+    <name>
+      <text>Sistema y Jerarquía</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Para Hans Kelsen el conjunto de normas jurídicas integra un "sistema normativo" en el cual unas normas se fundan o derivan de otras, y se relacionan entre sí a través de relaciones de jerarquía y completitud. </p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22723  -->
+  <question type="truefalse">
+    <name>
+      <text>Sociedad Anonima</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>La Sociedad Anónima Unipersonal puede ser constituida por otra Sociedad Anónima Unipersonal. </p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22732  -->
+  <question type="truefalse">
+    <name>
+      <text>Sociedad Anonima</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>En la actualidad el capital social de las Sociedades Anónimas esta representado por acciones al portador. Es decir, la persona que detenta en su poder la acción es su propietaria.   </p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>0.5000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22736  -->
+  <question type="truefalse">
+    <name>
+      <text>Sociedades Comerciales</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Las Sociedades Comerciales son reconocidas por el ordenamiento jurídico en la medida que adopten una de las figuras reconocidas por este. Inscripta la Sociedad Comercial adquiere personería jurídica y los socios sólo responden en la medida que la ley establezca.  </p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>0.5000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 22713  -->
+  <question type="truefalse">
+    <name>
+      <text>Tratados Internacionales</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Todos los tratados internacionales aprobados por el Congreso, cualquiera sea su contenido, tienen jerarquía superior a las leyes.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0000000</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+</quiz>
