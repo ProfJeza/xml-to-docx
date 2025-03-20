@@ -22,12 +22,10 @@ async function parseXML(filePath, materia, tipo) {
         // Leer el archivo XML
         console.log('Leyendo el archivo XML en:', filePath);
         const xmlData = fs.readFileSync(filePath, 'utf-8');
-        console.log('Contenido bruto del archivo XML:', xmlData);
 
         // Convertir el XML en un objeto JavaScript
-        const parser = new xml2js.Parser({ explicitArray: false });
+        const parser = new xml2js.Parser({ explicitArray: false, attrkey: 'attr' });
         const parsedData = await parser.parseStringPromise(xmlData);
-        console.log('Datos procesados:', JSON.stringify(parsedData, null, 2));
 
         // Verificar si el XML tiene la estructura esperada
         if (!parsedData.quiz || !parsedData.quiz.question) {
@@ -46,11 +44,11 @@ async function parseXML(filePath, materia, tipo) {
         );
 
         // Procesar las preguntas
-        const questions = parsedData.quiz.question;
-        questions.forEach((q, index) => {
-            console.log(`Procesando la pregunta ${index + 1}:`, JSON.stringify(q, null, 2));
+        const questions = Array.isArray(parsedData.quiz.question)
+            ? parsedData.quiz.question
+            : [parsedData.quiz.question];
 
-            // Verificar que la pregunta tenga nombre y texto
+        questions.forEach((q, index) => {
             if (!q.name || !q.questiontext) {
                 console.warn(`La pregunta ${index + 1} no tiene nombre o texto. Se omitirá.`);
                 return;
@@ -59,7 +57,6 @@ async function parseXML(filePath, materia, tipo) {
             const name = q.name.text;
             const questionText = cleanHTML(q.questiontext.text);
 
-            // Agregar la pregunta al documento
             sections.push(
                 new Paragraph({
                     text: `Nombre de la pregunta: ${name}`,
@@ -71,20 +68,25 @@ async function parseXML(filePath, materia, tipo) {
             // Procesar las respuestas
             if (q.answer) {
                 const answers = Array.isArray(q.answer) ? q.answer : [q.answer];
-               answers.forEach((answer, answerIndex) => {
-                const answerText = cleanHTML(answer.text);
-                //const isCorrect = answer.fraction == 100; // comparación laxa
-                const isCorrect = String(answer.fraction) === '100';
-                const answerTextWithIndicator = isCorrect
-                ? `${answerText} (correcta)`
-                : answerText;
+                answers.forEach((answer) => {
+                    const answerText = cleanHTML(answer.text);
+                    
+                    // Leer el atributo fraction
+                    const fraction = answer.attr ? answer.attr.fraction : null;
+                    console.log('Debug - Valor de fraction:', fraction);
 
-                sections.push(
-                    new Paragraph({
-                        text: answerTextWithIndicator,
-                    })
-                );
-            });
+                    const isCorrect = fraction == 100 || fraction === '100';
+                    
+                    const answerTextWithIndicator = isCorrect
+                        ? `${answerText} (correcta)`
+                        : answerText;
+
+                    sections.push(
+                        new Paragraph({
+                            text: answerTextWithIndicator,
+                        })
+                    );
+                });
             }
         });
 
@@ -100,11 +102,9 @@ async function parseXML(filePath, materia, tipo) {
             ],
         });
 
-        // Generar el archivo .docx
         const buffer = await Packer.toBuffer(doc);
         const outputFileName = `generated/${materia}-${tipo}-${Date.now()}.docx`;
 
-        // Crear la carpeta 'generated' si no existe
         if (!fs.existsSync('generated')) {
             fs.mkdirSync('generated');
         }
@@ -120,5 +120,3 @@ async function parseXML(filePath, materia, tipo) {
 }
 
 module.exports = { parseXML };
-
-
