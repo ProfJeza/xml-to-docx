@@ -71,19 +71,19 @@ async function parseXML(filePath, materia, tipo) {
             // Procesar las respuestas
             if (q.answer) {
                 const answers = Array.isArray(q.answer) ? q.answer : [q.answer];
-                answers.forEach((answer, answerIndex) => {
-                    const answerText = cleanHTML(answer.text);
-                    const isCorrect = answer.fraction !== '0';
-                    const answerTextWithIndicator = isCorrect
-                        ? `${answerText} (correcta)`
-                        : answerText;
+               answers.forEach((answer, answerIndex) => {
+                const answerText = cleanHTML(answer.text);
+                const isCorrect = answer.fraction === '100'; // solo '100' será correcto
+                const answerTextWithIndicator = isCorrect
+                ? `${answerText} (correcta)`
+                : answerText;
 
-                    sections.push(
-                        new Paragraph({
-                            text: answerTextWithIndicator,
-                        })
-                    );
-                });
+                sections.push(
+                    new Paragraph({
+                        text: answerTextWithIndicator,
+                    })
+                );
+            });
             }
         });
 
