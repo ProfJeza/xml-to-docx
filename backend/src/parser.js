@@ -73,7 +73,8 @@ async function parseXML(filePath, materia, tipo) {
                 const answers = Array.isArray(q.answer) ? q.answer : [q.answer];
                answers.forEach((answer, answerIndex) => {
                 const answerText = cleanHTML(answer.text);
-                const isCorrect = answer.fraction == 100; // comparación laxa
+                //const isCorrect = answer.fraction == 100; // comparación laxa
+                const isCorrect = String(answer.fraction) === '100';
                 const answerTextWithIndicator = isCorrect
                 ? `${answerText} (correcta)`
                 : answerText;
